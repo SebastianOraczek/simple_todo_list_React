@@ -1,0 +1,61 @@
+/* https://codepen.io/saawsan/pen/jayzeq?editors=1100 */
+
+.completed {
+    color: rgb(121, 120, 120);
+    text-decoration: line-through;
+}
+
+.Todo {
+    display:flex;
+	margin:0 -3rem 4px;
+	padding:1.1rem 3rem;
+	align-items:center;
+	background:rgba(255,255,255,0.1);
+}
+
+.Todo-buttons {
+    flex-shrink: 0;
+    padding-left: 0.7em;
+    margin-left: auto;
+}
+
+.Todo-buttons button{
+    border: none;
+    font-size: 1em;
+    margin: 0.4em;
+    background: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.Todo-editForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Todo-editForm input {
+    flex-grow:1;
+	border:none;
+	background:#f7f1f1;
+	padding:0 1.5em;
+	font-size:initial;
+}
+
+.Todo-editForm button {
+    padding: 0.3rem;
+	border:none;
+	background:#FF6666;
+	color:white;
+	text-transform:uppercase;
+	font-weight:bold;
+	border:1px solid rgba(255,255,255,.3);
+	margin-left:5px;
+	cursor:pointer;
+	transition:background .2s ease-out;
+	border-radius: 10px;
+}
+
+.Todo-editForm button:hover {
+    background:#FF5E5E;
+}

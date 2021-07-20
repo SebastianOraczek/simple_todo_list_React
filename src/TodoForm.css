@@ -1,0 +1,39 @@
+/* https://codepen.io/saawsan/pen/jayzeq?editors=1100 */
+
+.TodoForm {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.TodoForm input {
+    flex-grow:1;
+	border:none;
+	background:#f7f1f1;
+	padding:0 1.5em;
+	font-size:initial;
+}
+
+.TodoForm label {
+    min-width:100%;
+	margin-bottom:.5rem;
+	font-size:1.3rem;
+}
+
+.TodoForm button {
+    padding: 0.6rem;
+	border:none;
+	background:#FF6666;
+	color:white;
+	text-transform:uppercase;
+	font-weight:bold;
+	border:1px solid rgba(255,255,255,.3);
+	margin-left:5px;
+	cursor:pointer;
+	transition:background .2s ease-out;
+    border-radius: 10px;
+}
+
+.TodoForm button:hover {
+    background:#FF5E5E;
+}
